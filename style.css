@@ -1,9 +1,11 @@
+@media {
 body {
     margin: 0;
     font-family:  Roboto, sans-serif;
     font-size: 16px;
     color: black;
 }
+
 a {text-decoration: none; 
 color: black}
 progress::-webkit-progress-value { background: #3366ff; }
@@ -13,7 +15,7 @@ font-size: 48px;
 color: #34547A;
 padding-right: 30%;
 }
-.pronto{
+.skillbar {
      display: flex;
      flex-direction: column;
      justify-content: start;
@@ -37,24 +39,40 @@ padding-right: 30%;
           padding-left: 10%;
      
         }
-        .dis{
+        .clients {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; 
+          flex-wrap: initial;
+          width: 80%;
+          padding-top: 10vh ;
+          padding-right: 10%;
+          padding-left: 10%;
+     
+        }
+        .dis {
              display: flex;
              flex-direction: row;
              justify-content: space-around;
              padding: 10%;
              align-items: flex-end;
         }
+        .skills {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding: 10%;
+          align-items: flex-end;
+     }
         body {
           background-color : #EEEFF1;
           }
     .text1{ 
 font-size: 48px;
-width: 85%;
-margin-left: auto;
+text-align: center;
 color: #000000;
 }
     .text2 {
-width: 540px;
 margin: auto;
 text-align: center;
 color: #727272;
@@ -69,6 +87,7 @@ height: 65px;
 margin-top: 5%;
 margin-left: 30%;
 background: #34547A;
+color: blanchedalmond;
 }
       .button2 {
 width: 20%;
@@ -76,10 +95,13 @@ height: 51.54px;
 background: #34547A;
 margin-top: 1%;
 margin-left: 40%;
+color: blanchedalmond;
 }
        .phone2 {
 height: 100px;
 padding-bottom: 10%;
+padding-right: 30%;
+padding-left: 30%;
 padding-top: 10%;
 background: #FFFFFF;
 }
@@ -127,7 +149,7 @@ width: 70px;
 width: 55px;
 }
      .img6 {
-height: 90px;
+height: 75px;
 }
 
       .img14 {
@@ -158,9 +180,8 @@ width: 80%;
 }
 
        .video {
-width: 60%;
+width: 100%;
 height: 69.3vh;
-padding-left: 20%;
 padding-top: 2%;
 padding-bottom: 2%;
 }
@@ -189,7 +210,7 @@ background: #C4C4C4;
      flex-direction: row;
      justify-content: flex-start;
 }
-.mas {
+.site {
      display: flex;
      flex-direction: row;
      justify-content: center;
@@ -201,9 +222,27 @@ background: #C4C4C4;
      justify-content: flex-end;
      align-items: center;
 }
-.pon {
+.footer {
      display: flex;
      flex-direction: row-reverse;
      padding-left: 10%;
      padding-right: 10%;
+}
+.design {
+     padding-left: 10%;
+     padding-right: 10%;
+}
+.work {
+     padding-left: 30%;
+     padding-right: 30%;
+}
+.projecttext {
+     width: 30%;
+     color: blanchedalmond;
+}
+.want_site {
+     padding-left: 30%;
+     padding-right: 30%;
+}
+
 }
